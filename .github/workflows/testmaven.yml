@@ -58,7 +58,6 @@ jobs:
       env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
-        KEY: ${{ secrets.decryption_key }}
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
