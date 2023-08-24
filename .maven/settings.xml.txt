@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<settings>
 
-  <pluginGroups>
+<settings>
+    <pluginGroups>
     <pluginGroup>org.mule.tools</pluginGroup>
   </pluginGroups>
 
@@ -23,7 +23,7 @@
         <repository>
           <id>MuleRepository</id>
           <name>MuleRepository</name>
-          <url>https://repository.mulesoft.org/releases/</url>
+          <url>https://repo.maven.apache.org/maven2</url>
           <layout>default</layout>
           <releases>
             <enabled>true</enabled>
@@ -36,3 +36,4 @@
     </profile>
   </profiles>
 </settings>
+
