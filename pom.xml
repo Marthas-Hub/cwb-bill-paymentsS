@@ -75,6 +75,13 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		
+		<dependency>
+			<groupId>04ccabd7-591a-4976-a324-e4658877e3d8</groupId>
+			<artifactId>bill-payments</artifactId>
+			<version>1.0.4</version>
+			<classifier>raml</classifier>
+			<type>zip</type>
+		</dependency>
 	</dependencies>
 
 	<repositories>
